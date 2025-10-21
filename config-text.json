@@ -1,0 +1,1356 @@
+{
+  "i18n": {
+    "defaultlocale": "en",
+    "languages": [
+      "en"
+    ],
+    "showLangSwitch": false
+  },
+  "general": {
+    "theming": {
+      "override": false,
+      "interactiveColor": "#076bc9",
+      "brandColor": "#3C8712"
+    },
+    "ga": {
+      "enabled": true,
+      "trackingid": "G-RJ6VT2L72P"
+    },
+    "connection": {
+      "type": "mashup",
+      "authtype": "basic",
+      "clientid": "",
+      "clientsecret": "",
+      "webportal": "",
+      "c11nserver": "",
+      "showAttachments": true,
+      "PegaURL": "",
+      "authService": "pega",
+      "themeID": ""
+    },
+    "auth_2fa": {
+      "enabled": false,
+      "sendMode": "email",
+      "url": "",
+      "emailSettings": {
+        "correspondenceName": "pyDefaultOTPCorr",
+        "emailAccount": "Default",
+        "subject": "New OTP Request",
+        "validateMaxAge": "false"
+      },
+      "smsSettings": {
+        "from": "Pega",
+        "account": "Default",
+        "message": "Uplus OTP login code",
+        "validateMaxAge": "false"
+      }
+    }
+  },
+  "quicklinks": [
+    {
+      "title": {
+        "en": "Request a service",
+        "fr": "Demander un service"
+      },
+      "action": "createNewWork",
+      "actionparam": "",
+      "objclass": "",
+      "url": "",
+      "startcase": "pyStartCase",
+      "application": "",
+      "icon": "",
+      "extraparam": "",
+      "hide": false,
+      "channelid": "",
+      "tenantid": "",
+      "dataretained": true,
+      "hideassignmentheader": false,
+      "hideusers": "",
+      "heading": ""
+    },
+    {
+      "title": {
+        "en": "Make a payment",
+        "fr": "Faire un paiement"
+      },
+      "action": "createNewWork",
+      "actionparam": "",
+      "objclass": "",
+      "url": "",
+      "startcase": "pyStartCase",
+      "application": "",
+      "icon": "",
+      "extraparam": "",
+      "hide": false,
+      "channelid": "",
+      "tenantid": "",
+      "dataretained": true,
+      "hideassignmentheader": false,
+      "hideusers": "",
+      "heading": ""
+    },
+    {
+      "title": {
+        "en": "Update billing",
+        "fr": "Mettre a jour ses informations de paiment"
+      },
+      "action": "createNewWork",
+      "actionparam": "",
+      "objclass": "",
+      "url": "",
+      "startcase": "pyStartCase",
+      "application": "",
+      "icon": "",
+      "extraparam": "",
+      "hide": false,
+      "channelid": "",
+      "tenantid": "",
+      "dataretained": true,
+      "hideassignmentheader": false,
+      "hideusers": "",
+      "heading": ""
+    },
+    {
+      "title": {
+        "en": "Proof of insurance"
+      },
+      "action": "createNewWork",
+      "actionparam": "",
+      "objclass": "",
+      "url": "",
+      "startcase": "pyStartCase",
+      "application": "",
+      "icon": "",
+      "extraparam": "",
+      "hide": false,
+      "channelid": "",
+      "tenantid": "",
+      "dataretained": true,
+      "hideassignmentheader": false,
+      "hideusers": "",
+      "heading": ""
+    },
+    {
+      "title": {
+        "en": "Update your profile",
+        "fr": "Mettre a jour votre profil"
+      },
+      "action": "createNewWork",
+      "actionparam": "",
+      "objclass": "",
+      "url": "",
+      "startcase": "pyStartCase",
+      "application": "",
+      "icon": "",
+      "extraparam": "",
+      "hide": false,
+      "channelid": "",
+      "tenantid": "",
+      "dataretained": true,
+      "hideassignmentheader": false,
+      "hideusers": ""
+    }
+  ],
+  "billpay": {
+    "action": "createNewWork",
+    "actionparam": "",
+    "objclass": "",
+    "url": "",
+    "startcase": "pyStartCase",
+    "application": "",
+    "extraparam": "",
+    "hidebillpay": false,
+    "channelid": "",
+    "tenantid": "",
+    "dataretained": true,
+    "hideassignmentheader": false,
+    "heading": ""
+  },
+  "banner": {
+    "action": "createNewWork",
+    "actionparam": "",
+    "objclass": "",
+    "url": "",
+    "startcase": "pyStartCase",
+    "application": "",
+    "extraparam": "",
+    "hidebanner": true,
+    "hidebanner_button": false,
+    "color": "#CE9840",
+    "channelid": "",
+    "tenantid": "",
+    "dataretained": true,
+    "hideassignmentheader": false,
+    "heading": ""
+  },
+  "todo": {
+    "action": "createNewWork",
+    "actionparam": "",
+    "objclass": "",
+    "url": "",
+    "startcase": "pyStartCase",
+    "application": "",
+    "extraparam": "",
+    "hideactivity": false,
+    "hideaccount": false,
+    "hideaccountdetails": false,
+    "hideKPI": true,
+    "channelid": "",
+    "tenantid": "",
+    "dataretained": true,
+    "hideassignmentheader": false,
+    "heading": ""
+  },
+  "kmhelp": {
+    "action": "display",
+    "actionparam": "KMHelpSitePortal",
+    "objclass": "Data-Portal",
+    "url": "",
+    "startcase": "pyStartCase",
+    "application": "",
+    "extraparam": "",
+    "username": "",
+    "password": "",
+    "channelid": "",
+    "tenantid": "",
+    "dataretained": true,
+    "hideassignmentheader": false,
+    "heading": ""
+  },
+  "activity": {
+    "action": "createNewWork",
+    "actionparam": "",
+    "objclass": "",
+    "url": "",
+    "startcase": "pyStartCase",
+    "application": "",
+    "extraparam": "",
+    "channelid": "",
+    "tenantid": "",
+    "dataretained": true,
+    "hideassignmentheader": false,
+    "heading": ""
+  },
+  "homeheroaction": {
+    "action": "createNewWork",
+    "actionparam": "",
+    "objclass": "",
+    "url": "",
+    "startcase": "pyStartCase",
+    "application": "",
+    "pega_userid": "",
+    "pega_pwd": "",
+    "extraparam": "",
+    "channelid": "",
+    "tenantid": "",
+    "dataretained": true,
+    "hideassignmentheader": false,
+    "heading": ""
+  },
+  "offeraction": {
+    "action": "createNewWork",
+    "actionparam": "",
+    "objclass": "",
+    "url": "",
+    "startcase": "pyStartCase",
+    "application": "",
+    "pega_userid": "",
+    "pega_pwd": "",
+    "extraparam": "",
+    "channelid": "",
+    "tenantid": "",
+    "dataretained": true,
+    "hideassignmentheader": false,
+    "heading": ""
+  },
+  "users": [
+    {
+      "username": "Troy",
+      "password": "rules",
+      "img": "avatar-1.jpg",
+      "company_name": "",
+      "name": "Troy Murphy",
+      "accountID": "3333114444",
+      "contactID": "",
+      "customerID": "14",
+      "extraparam": "",
+      "dmm_context_data": "",
+      "pega_userid": "",
+      "pega_pwd": "",
+      "billpay": "164.8",
+      "load_by_default": true,
+      "show_opname": false,
+      "otp_send_to": "",
+      "accountdetails": [
+        [
+          {
+            "label": "Card number",
+            "value": "***0219"
+          },
+          {
+            "label": "Card type",
+            "value": "VISA card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ]
+      ],
+      "accountpicker": [
+        {
+          "img": "img/account-picker1.jpg",
+          "title": "U+ Standard Card",
+          "showbillpay": true,
+          "details": [
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            },
+            {
+              "label": "Statement balance",
+              "type": "currency",
+              "value": 193.27
+            },
+            {
+              "label": "Minimum due",
+              "type": "currency",
+              "value": 25
+            },
+            {
+              "label": "Due date",
+              "type": "duedate"
+            }
+          ]
+        },
+        {
+          "title": "Free Student Checking",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            }
+          ]
+        },
+        {
+          "title": "Simply Saving",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 2400.3
+            },
+            {
+              "label": "Interest rate",
+              "value": "2.30%"
+            }
+          ]
+        }
+      ],
+      "recentactivity": [
+        {
+          "message": "Cambridge town taxes",
+          "cost": 1230.45
+        },
+        {
+          "message": "Joe's dinner",
+          "cost": 53.1
+        },
+        {
+          "message": "Randy's Supermarket",
+          "cost": 143.12
+        },
+        {
+          "message": "Urban Garden Supply",
+          "cost": 13.12
+        }
+      ],
+      "hide_from_dropdown": false
+    },
+    {
+      "username": "Barbara",
+      "password": "rules",
+      "img": "avatar-2.jpg",
+      "company_name": "",
+      "name": "Barbara Stockton",
+      "accountID": "333334444",
+      "contactID": "",
+      "customerID": "15",
+      "extraparam": "",
+      "dmm_context_data": "",
+      "pega_userid": "mtaylor",
+      "pega_pwd": "rules",
+      "billpay": "654.8",
+      "load_by_default": true,
+      "show_opname": false,
+      "otp_send_to": "",
+      "accountdetails": [
+        [
+          {
+            "label": "Card number",
+            "value": "***0219"
+          },
+          {
+            "label": "Card type",
+            "value": "VISA card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ],
+        [
+          {
+            "label": "Card number",
+            "value": "***1875"
+          },
+          {
+            "label": "Card type",
+            "value": "Amex card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ]
+      ],
+      "accountpicker": [
+        {
+          "img": "img/account-picker1.jpg",
+          "title": "U+ Rewards Card",
+          "showbillpay": true,
+          "details": [
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            },
+            {
+              "label": "Statement balance",
+              "type": "currency",
+              "value": 193.27
+            },
+            {
+              "label": "Minimum due",
+              "type": "currency",
+              "value": 25
+            },
+            {
+              "label": "Due date",
+              "type": "duedate"
+            }
+          ]
+        },
+        {
+          "title": "Free Student Checking",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            }
+          ]
+        },
+        {
+          "title": "Simply Saving",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 2400.3
+            },
+            {
+              "label": "Interest rate",
+              "value": "2.30%"
+            }
+          ]
+        }
+      ],
+      "recentactivity": [
+        {
+          "message": "Cambridge town taxes",
+          "cost": 1230.45
+        },
+        {
+          "message": "Joe's dinner",
+          "cost": 53.1
+        },
+        {
+          "message": "Randy's Supermarket",
+          "cost": 143.12
+        },
+        {
+          "message": "Urban Garden Supply",
+          "cost": 13.12
+        }
+      ],
+      "hide_from_dropdown": false
+    },
+    {
+      "username": "Joanna",
+      "password": "rules",
+      "img": "avatar-bethmiller.png",
+      "company_name": "",
+      "name": "Joanna Williams",
+      "accountID": "",
+      "contactID": "",
+      "customerID": "16",
+      "extraparam": "",
+      "dmm_context_data": "",
+      "pega_userid": "mtaylor",
+      "pega_pwd": "rules",
+      "billpay": "364.8",
+      "load_by_default": true,
+      "show_opname": false,
+      "otp_send_to": "",
+      "accountdetails": [
+        [
+          {
+            "label": "Card number",
+            "value": "***0219"
+          },
+          {
+            "label": "Card type",
+            "value": "VISA card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ],
+        [
+          {
+            "label": "Card number",
+            "value": "***1875"
+          },
+          {
+            "label": "Card type",
+            "value": "Amex card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ]
+      ],
+      "accountpicker": [
+        {
+          "img": "img/account-picker1.jpg",
+          "title": "U+ Rewards Card",
+          "showbillpay": true,
+          "details": [
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            },
+            {
+              "label": "Statement balance",
+              "type": "currency",
+              "value": 193.27
+            },
+            {
+              "label": "Minimum due",
+              "type": "currency",
+              "value": 25
+            },
+            {
+              "label": "Due date",
+              "type": "duedate"
+            }
+          ]
+        },
+        {
+          "title": "Free Student Checking",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            }
+          ]
+        },
+        {
+          "title": "Simply Saving",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 2400.3
+            },
+            {
+              "label": "Interest rate",
+              "value": "2.30%"
+            }
+          ]
+        }
+      ],
+      "recentactivity": [
+        {
+          "message": "Cambridge town taxes",
+          "cost": 1230.45
+        },
+        {
+          "message": "Joe's dinner",
+          "cost": 53.1
+        },
+        {
+          "message": "Randy's Supermarket",
+          "cost": 143.12
+        },
+        {
+          "message": "Urban Garden Supply",
+          "cost": 13.12
+        }
+      ],
+      "hide_from_dropdown": false
+    },
+    {
+      "username": "Robert",
+      "password": "rules",
+      "img": "Avatar-Ben-Stokes.jpg",
+      "company_name": "",
+      "name": "Robert Walton",
+      "accountID": "",
+      "contactID": "",
+      "customerID": "17",
+      "extraparam": "",
+      "dmm_context_data": "",
+      "pega_userid": "",
+      "pega_pwd": "rules",
+      "billpay": "464.8",
+      "load_by_default": true,
+      "show_opname": false,
+      "otp_send_to": "",
+      "accountdetails": [
+        [
+          {
+            "label": "Card number",
+            "value": "***0219"
+          },
+          {
+            "label": "Card type",
+            "value": "VISA card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ],
+        [
+          {
+            "label": "Card number",
+            "value": "***1875"
+          },
+          {
+            "label": "Card type",
+            "value": "Amex card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ]
+      ],
+      "accountpicker": [
+        {
+          "img": "img/account-picker1.jpg",
+          "title": "U+ Rewards Card",
+          "showbillpay": true,
+          "details": [
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            },
+            {
+              "label": "Statement balance",
+              "type": "currency",
+              "value": 193.27
+            },
+            {
+              "label": "Minimum due",
+              "type": "currency",
+              "value": 25
+            },
+            {
+              "label": "Due date",
+              "type": "duedate"
+            }
+          ]
+        },
+        {
+          "title": "Free Student Checking",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            }
+          ]
+        },
+        {
+          "title": "Simply Saving",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 2400.3
+            },
+            {
+              "label": "Interest rate",
+              "value": "2.30%"
+            }
+          ]
+        }
+      ],
+      "recentactivity": [
+        {
+          "message": "Cambridge town taxes",
+          "cost": 1230.45
+        },
+        {
+          "message": "Joe's dinner",
+          "cost": 53.1
+        },
+        {
+          "message": "Randy's Supermarket",
+          "cost": 143.12
+        },
+        {
+          "message": "Urban Garden Supply",
+          "cost": 13.12
+        }
+      ],
+      "hide_from_dropdown": false
+    },
+    {
+      "username": "John",
+      "password": "rules",
+      "img": "Avatar-David-Achebe.jpg",
+      "company_name": "",
+      "name": "John Brown",
+      "accountID": "",
+      "contactID": "",
+      "customerID": "18",
+      "extraparam": "",
+      "dmm_context_data": "",
+      "pega_userid": "",
+      "pega_pwd": "rules",
+      "billpay": "364.8",
+      "load_by_default": true,
+      "show_opname": false,
+      "otp_send_to": "",
+      "accountdetails": [
+        [
+          {
+            "label": "Card number",
+            "value": "***0219"
+          },
+          {
+            "label": "Card type",
+            "value": "VISA card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ],
+        [
+          {
+            "label": "Card number",
+            "value": "***1875"
+          },
+          {
+            "label": "Card type",
+            "value": "Amex card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ]
+      ],
+      "accountpicker": [
+        {
+          "img": "img/account-picker1.jpg",
+          "title": "U+ Rewards Card",
+          "showbillpay": true,
+          "details": [
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            },
+            {
+              "label": "Statement balance",
+              "type": "currency",
+              "value": 193.27
+            },
+            {
+              "label": "Minimum due",
+              "type": "currency",
+              "value": 25
+            },
+            {
+              "label": "Due date",
+              "type": "duedate"
+            }
+          ]
+        },
+        {
+          "title": "Free Student Checking",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            }
+          ]
+        },
+        {
+          "title": "Simply Saving",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 2400.3
+            },
+            {
+              "label": "Interest rate",
+              "value": "2.30%"
+            }
+          ]
+        }
+      ],
+      "recentactivity": [
+        {
+          "message": "Cambridge town taxes",
+          "cost": 1230.45
+        },
+        {
+          "message": "John's dinner",
+          "cost": 53.1
+        },
+        {
+          "message": "Randy's Supermarket",
+          "cost": 143.12
+        },
+        {
+          "message": "Urban Garden Supply",
+          "cost": 13.12
+        }
+      ],
+      "hide_from_dropdown": false
+    },
+    {
+      "username": "Arnold",
+      "password": "rules",
+      "img": "Avatar-Tom-Miller.jpg",
+      "company_name": "",
+      "name": "Arnold Green",
+      "accountID": "",
+      "contactID": "",
+      "customerID": "19",
+      "extraparam": "",
+      "dmm_context_data": "",
+      "pega_userid": "",
+      "pega_pwd": "rules",
+      "billpay": "664.8",
+      "load_by_default": true,
+      "show_opname": false,
+      "otp_send_to": "",
+      "accountdetails": [
+        [
+          {
+            "label": "Card number",
+            "value": "***0219"
+          },
+          {
+            "label": "Card type",
+            "value": "VISA card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ],
+        [
+          {
+            "label": "Card number",
+            "value": "***1875"
+          },
+          {
+            "label": "Card type",
+            "value": "Amex card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ]
+      ],
+      "accountpicker": [
+        {
+          "img": "img/account-picker1.jpg",
+          "title": "U+ Rewards Card",
+          "showbillpay": true,
+          "details": [
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            },
+            {
+              "label": "Statement balance",
+              "type": "currency",
+              "value": 193.27
+            },
+            {
+              "label": "Minimum due",
+              "type": "currency",
+              "value": 25
+            },
+            {
+              "label": "Due date",
+              "type": "duedate"
+            }
+          ]
+        },
+        {
+          "title": "Free Student Checking",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            }
+          ]
+        },
+        {
+          "title": "Simply Saving",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 2400.3
+            },
+            {
+              "label": "Interest rate",
+              "value": "2.30%"
+            }
+          ]
+        }
+      ],
+      "recentactivity": [
+        {
+          "message": "Cambridge town taxes",
+          "cost": 1230.45
+        },
+        {
+          "message": "Joe's dinner",
+          "cost": 53.1
+        },
+        {
+          "message": "Randy's Supermarket",
+          "cost": 143.12
+        },
+        {
+          "message": "Urban Garden Supply",
+          "cost": 13.12
+        }
+      ],
+      "hide_from_dropdown": false
+    },
+    {
+      "username": "Sara",
+      "password": "rules",
+      "img": "Avatar-RebeccaBiggs.jpg",
+      "company_name": "",
+      "name": "Sara Connor",
+      "accountID": "",
+      "contactID": "",
+      "customerID": "UPLUS-SAPLUS-WORK-CONTACT SAMPLECON-1",
+      "extraparam": "",
+      "dmm_context_data": "",
+      "pega_userid": "",
+      "pega_pwd": "rules",
+      "billpay": "1164.8",
+      "load_by_default": true,
+      "show_opname": false,
+      "otp_send_to": "",
+      "accountdetails": [
+        [
+          {
+            "label": "Card number",
+            "value": "***0219"
+          },
+          {
+            "label": "Card type",
+            "value": "VISA card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ],
+        [
+          {
+            "label": "Card number",
+            "value": "***1875"
+          },
+          {
+            "label": "Card type",
+            "value": "Amex card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ]
+      ],
+      "accountpicker": [
+        {
+          "img": "img/account-picker1.jpg",
+          "title": "U+ Rewards Card",
+          "showbillpay": true,
+          "details": [
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            },
+            {
+              "label": "Statement balance",
+              "type": "currency",
+              "value": 193.27
+            },
+            {
+              "label": "Minimum due",
+              "type": "currency",
+              "value": 25
+            },
+            {
+              "label": "Due date",
+              "type": "duedate"
+            }
+          ]
+        },
+        {
+          "title": "Free Student Checking",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            }
+          ]
+        },
+        {
+          "title": "Simply Saving",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 2400.3
+            },
+            {
+              "label": "Interest rate",
+              "value": "2.30%"
+            }
+          ]
+        }
+      ],
+      "recentactivity": [
+        {
+          "message": "Cambridge town taxes",
+          "cost": 1230.45
+        },
+        {
+          "message": "Joe's dinner",
+          "cost": 53.1
+        },
+        {
+          "message": "Randy's Supermarket",
+          "cost": 143.12
+        },
+        {
+          "message": "Urban Garden Supply",
+          "cost": 13.12
+        }
+      ],
+      "hide_from_dropdown": false
+    },
+    {
+      "username": "Gill",
+      "password": "rules",
+      "img": "Avatar-Geoff.jpg",
+      "company_name": "",
+      "name": "Gill Bates",
+      "accountID": "",
+      "contactID": "",
+      "customerID": "20",
+      "extraparam": "",
+      "dmm_context_data": "",
+      "pega_userid": "",
+      "pega_pwd": "rules",
+      "billpay": "774.8",
+      "load_by_default": true,
+      "show_opname": false,
+      "otp_send_to": "",
+      "accountdetails": [
+        [
+          {
+            "label": "Card number",
+            "value": "***0219"
+          },
+          {
+            "label": "Card type",
+            "value": "VISA card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ],
+        [
+          {
+            "label": "Card number",
+            "value": "***1875"
+          },
+          {
+            "label": "Card type",
+            "value": "Amex card"
+          },
+          {
+            "label": "Card status",
+            "value": "Active"
+          }
+        ]
+      ],
+      "accountpicker": [
+        {
+          "img": "img/account-picker1.jpg",
+          "title": "U+ Rewards Card",
+          "showbillpay": true,
+          "details": [
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            },
+            {
+              "label": "Statement balance",
+              "type": "currency",
+              "value": 193.27
+            },
+            {
+              "label": "Minimum due",
+              "type": "currency",
+              "value": 25
+            },
+            {
+              "label": "Due date",
+              "type": "duedate"
+            }
+          ]
+        },
+        {
+          "title": "Free Student Checking",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 164.8
+            }
+          ]
+        },
+        {
+          "title": "Simply Saving",
+          "details": [
+            {
+              "label": "Account number",
+              "value": "12456788689"
+            },
+            {
+              "label": "Account balance",
+              "type": "currency",
+              "value": 2400.3
+            },
+            {
+              "label": "Interest rate",
+              "value": "2.30%"
+            }
+          ]
+        }
+      ],
+      "recentactivity": [
+        {
+          "message": "Cambridge town taxes",
+          "cost": 1230.45
+        },
+        {
+          "message": "Joe's dinner",
+          "cost": 53.1
+        },
+        {
+          "message": "Randy's Supermarket",
+          "cost": 143.12
+        },
+        {
+          "message": "Urban Garden Supply",
+          "cost": 13.12
+        }
+      ],
+      "hide_from_dropdown": false
+    }
+  ],
+  "pega_chat": {
+    "WCBConfigName": "webchat",
+    "WebChatBotID": "botfbe473a6321b414995e0664f98c49461",
+    "ApplicationName": "EduSelfService",
+    "MashupURL": "https://env-{HOSTNAME}.pegaenablement.com/prweb/PRChat/app/EduSelfService_5298/",
+    "ShowAsButton": true,
+    "EnableProActiveNotification": false,
+    "ResetLogout": false,
+    "ProActiveNotificationDismissTime": "",
+    "CoBrowseServerURL": "https://env-{HOSTNAME}.pegaenablement.com:8043/co",
+    "CoBrowseToken": "58d3c9aa21365a993bb0fed3",
+    "UseLegacyWebChat": false,
+    "DMMURL": "",
+    "DMMID": "pega-wm-chat",
+    "DMMSecret": "",
+    "DMMPrivateURL": "https://ksxyk0i2hb.execute-api.us-east-1.amazonaws.com/Prod/private-data",
+    "DMMProactiveChatNewSessionTimeout": 0,
+    "DMMProactiveChatNewSessionCode": "5sonPage"
+  },
+  "pega_marketing": {
+    "Host": "pega.18a232b85c82.pegaenablement.com",
+    "Port": "",
+    "channel": "Web",
+    "requestTimeout": 90000,
+    "replaceHomePageHeader": false,
+    "showAIOverlay": true,
+    "enableRTS": false,
+    "enableClickStream": true,
+    "enableMergeAccount": true,
+    "useCaptureByChannel": true,
+    "apiLevel": "V4",
+    "contextName": "Customer",
+    "showLoadingIndicator": true,
+    "appID": "CDH",
+    "homePage": {
+      "containerName": "",
+      "placement": "",
+      "clickaction": "TopURL",
+      "attributes": ""
+    },
+    "accountPage": {
+      "containerName": "TopOffers",
+      "placement": "Tile",
+      "clickaction": "TopURL",
+      "attributes": "",
+      "showSingleOffer": true
+    },
+    "phonePage": {
+      "containerName": "TopOffers",
+      "placement": "Hero",
+      "clickaction": "TopURL",
+      "attributes": ""
+    },
+    "offerPage": {
+      "containerName": "TopOffers",
+      "placement": "Hero",
+      "clickaction": "TopURL",
+      "attributes": ""
+    },
+    "extraOfferPages": [
+      {
+        "containerName": "TopOffers",
+        "placement": "Hero",
+        "clickaction": "TopURL",
+        "attributes": ""
+      },
+      {
+        "containerName": "TopOffers",
+        "placement": "Hero",
+        "clickaction": "TopURL",
+        "attributes": ""
+      },
+      {
+        "containerName": "TopOffers",
+        "placement": "Hero",
+        "clickaction": "TopURL",
+        "attributes": ""
+      },
+      {
+        "containerName": "TopOffers",
+        "placement": "Hero",
+        "clickaction": "TopURL",
+        "attributes": ""
+      }
+    ]
+  }
+}
