@@ -408,8 +408,8 @@ main {
 
 .credit-cards-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
 }
 
 .credit-card-item {
@@ -429,16 +429,20 @@ main {
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-.credit-card-visual.platinum {
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+.credit-card-visual.standard {
+    background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
 }
 
-.credit-card-visual.cash-reward {
+.credit-card-visual.rewards {
     background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
 }
 
-.credit-card-visual.traveler {
+.credit-card-visual.rewards-plus {
     background: linear-gradient(135deg, #6a0572 0%, #ab47bc 100%);
+}
+
+.credit-card-visual.premier-rewards {
+    background: linear-gradient(135deg, #c79100 0%, #8b6914 100%);
 }
 
 .card-logo {
